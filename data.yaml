@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['cubesat-1U', 'cubesat-3U', 'cubesat-6U']
+
+roboflow:
+  workspace: aya-emad-ramadan-elsaby-bp3k8
+  project: object-detection-f2iti
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aya-emad-ramadan-elsaby-bp3k8/object-detection-f2iti/dataset/2
